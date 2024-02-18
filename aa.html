@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>豪華なサイト</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #displayText {
+            font-size: 3em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <input type="text" id="userInput" placeholder="ここにテキストを入力">
+        <button onclick="displayText()">表示</button>
+        <button onclick="changeBackgroundColor()">背景色変更</button>
+        <div id="displayText"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
